@@ -1,0 +1,89 @@
+<!--pages/operation/index/index.wxml-->
+<view class="page">
+  <view class="page__bd">
+    <view class="weui-panel weui-panel_access">
+      <view class="weui-panel__hd">客户管理</view>
+      <view class="weui-panel__bd">
+        <view class="weui-grids">
+          <navigator url="../customer/equipmentcustomer/index" class="weui-grid" hover-class="weui-grid_active">
+              <i class="iconfont icon-kehuguanli weui-grid__icon green"></i>
+              <view class="weui-grid__label">客户信息</view>
+          </navigator>
+          <navigator url="../customer/equipmentroom/index" class="weui-grid" hover-class="weui-grid_active">
+              <i class="iconfont icon-zhichizhongxin weui-grid__icon bule"></i>   
+              <view class="weui-grid__label">电房信息</view>
+          </navigator>
+        </view>
+      </view>
+    </view>
+
+    <view class="weui-panel weui-panel_access">
+      <view class="weui-panel__hd">设备管理</view>
+      <view class="weui-panel__bd">
+        <view class="weui-grids">
+          <navigator url="../equipment/equipmentvendor/index" class="weui-grid" hover-class="weui-grid_active">
+              <i class="iconfont icon-lianxi weui-grid__icon yellow"></i>
+              <view class="weui-grid__label">设备供应商</view>
+          </navigator>
+          <navigator url="../equipment/equipmentgateway/index" class="weui-grid" hover-class="weui-grid_active">
+              <i class="iconfont icon-07 weui-grid__icon purple"></i>
+              <view class="weui-grid__label">通讯方式</view>
+          </navigator>
+          <navigator url="../equipment/equipmentmetertype/index" class="weui-grid" hover-class="weui-grid_active">
+              <i class="iconfont icon-yunwei weui-grid__icon light-bule"></i>
+              <view class="weui-grid__label">电表类型</view>
+          </navigator>
+          <navigator url="../equipment/equipmentsimcards/index" class="weui-grid" hover-class="weui-grid_active">
+              <i class="iconfont icon-hetong weui-grid__icon teal"></i>
+              <view class="weui-grid__label">SIM卡管理</view>
+          </navigator>
+          <navigator url="../equipment/equipmentdtuconfig/index" class="weui-grid" hover-class="weui-grid_active">
+              <i class="iconfont icon-tuoguan weui-grid__icon red"></i>
+              <view class="weui-grid__label">网络设备管理</view>
+          </navigator>
+          <navigator url="../equipment/equipmentmeterconfig/index" class="weui-grid" hover-class="weui-grid_active">
+              <i class="iconfont icon-monitor-copy-copy weui-grid__icon green"></i>
+              <view class="weui-grid__label">电表管理</view>
+          </navigator>
+          <navigator url="" class="weui-grid" hover-class="weui-grid_active">
+              <i class="iconfont icon-suoyougongdan weui-grid__icon bule"></i>
+              <view class="weui-grid__label">寄存器分段配置</view>
+          </navigator>
+          <navigator url="" class="weui-grid" hover-class="weui-grid_active">
+              <i class="iconfont icon-tab_opt weui-grid__icon yellow"></i>
+              <view class="weui-grid__label">寄存器地址管理</view>
+          </navigator>
+          <navigator url="" class="weui-grid" hover-class="weui-grid_active">
+              <i class="iconfont icon-zixun weui-grid__icon purple"></i>
+              <view class="weui-grid__label">字段映射表名配置</view>
+          </navigator>
+          <navigator url="" class="weui-grid" hover-class="weui-grid_active">
+              <i class="iconfont icon-gaishu weui-grid__icon teal"></i>
+              <view class="weui-grid__label">字段映射顺序配置</view>
+          </navigator>
+        </view>
+      </view>
+    </view>
+
+    <view class="weui-panel weui-panel_access">
+      <view class="weui-panel__hd">数据管理</view>
+      <view class="weui-panel__bd">
+        <view class="weui-grids">
+          <navigator url="" class="weui-grid" hover-class="weui-grid_active">
+              <i class="iconfont icon-tubiao weui-grid__icon teal"></i>
+              <view class="weui-grid__label">电表数据查询</view>
+          </navigator>
+          <navigator url="" class="weui-grid" hover-class="weui-grid_active">
+              <i class="iconfont icon-tubiaobingzhuangtu weui-grid__icon yellow"></i>
+              <view class="weui-grid__label">电表需量查询</view>
+          </navigator>
+          <navigator url="" class="weui-grid" hover-class="weui-grid_active">
+              <i class="iconfont icon-gaishu weui-grid__icon bule"></i>
+              <view class="weui-grid__label">采集条数查询</view>
+          </navigator>
+        </view>
+      </view>
+    </view>
+
+  </view>
+</view>

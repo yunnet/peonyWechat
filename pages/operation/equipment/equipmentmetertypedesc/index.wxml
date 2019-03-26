@@ -1,0 +1,50 @@
+<!--pages/operation/equipment/equipmentmetertypedesc/index.wxml-->
+<view class="page">
+  <view class="page__hd">
+    <view class="page__title">{{item.MeterType}}</view>
+    <view class="page__desc">电表类型</view>
+  </view>
+  <view class="page__bd">
+    <view class="weui-form-preview">
+      <view class="weui-form-preview__bd">
+        <view class="weui-form-preview__item">
+          <view class="weui-form-preview__label">电表类型编号</view>
+          <view class="weui-form-preview__value">{{item.MeterTypeNo}}</view>
+        </view>
+        <view class="weui-form-preview__item">
+          <view class="weui-form-preview__label">电表类型名称</view>
+          <view class="weui-form-preview__value">{{item.MeterType}}</view>
+        </view>   
+        <view class="weui-form-preview__item">
+          <view class="weui-form-preview__label">供应商编号</view>
+          <view class="weui-form-preview__value">{{item.VendorNo}}</view>
+        </view> 
+        <view class="weui-form-preview__item">
+          <view class="weui-form-preview__label">是否三相电表</view>
+          <view class="weui-form-preview__value">{{item.ThreePhase}}</view>
+        </view>      
+       
+        <view class="weui-form-preview__item">
+          <view class="weui-form-preview__label">状态</view>
+          <switch class="weui-form-preview__value" disabled="true" checked="{{item.Tag}}"/> 
+        </view>
+        <view class="weui-form-preview__item">
+          <view class="weui-form-preview__label">创建人</view>
+          <view class="weui-form-preview__value">{{item.Createuser}}</view>
+        </view>
+        <view class="weui-form-preview__item">
+          <view class="weui-form-preview__label">创建时间</view>
+          <view class="weui-form-preview__value">{{item.Createdate}}</view>
+        </view>
+        <view class="weui-form-preview__item">
+          <view class="weui-form-preview__label">修改人</view>
+          <view class="weui-form-preview__value">{{item.Changeuser}}</view>
+        </view>
+        <view class="weui-form-preview__item">
+          <view class="weui-form-preview__label">修改时间</view>
+          <view class="weui-form-preview__value">{{item.Changedate}}</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

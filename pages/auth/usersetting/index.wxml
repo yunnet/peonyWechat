@@ -1,0 +1,21 @@
+<!--pages/auth/usersetting/index.wxml-->
+<view class="page">
+  <view class="page__hd">
+    <view class="page__title">
+      <image class="avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+    </view>    
+    <view class="page__desc">用户名: {{username}}</view>
+    <view class="page__desc">昵称:{{userInfo.nickName}}</view>    
+  </view>
+  
+
+  <view class="page__bd">
+    <view class="weui-article">
+      <view class="weui-article__p">国家：{{userInfo.country}}</view>  
+      <view class="weui-article__p">省份：{{userInfo.province}}</view> 
+      <view class="weui-article__p">城市：{{userInfo.city}}</view>
+    </view>
+  </view>
+  
+</view>
+

@@ -1,0 +1,20 @@
+/* pages/operation/equipment/equipmentsimcardsdesc/index.wxss */
+
+.weui-form-preview__value {
+  text-align: left;
+}
+
+.wx-switch-input {
+  width: 42px !important;
+  height: 20px !important;
+}
+
+.wx-switch-input::before {
+  width: 41px !important;
+  height: 20px !important;
+}
+
+.wx-switch-input::after {
+  width: 18px !important;
+  height: 18px !important;
+}

@@ -1,0 +1,8 @@
+/* pages/auth/usersetting/index.wxss */
+
+.avatar {
+  width: 160rpx;
+  height: 160rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}

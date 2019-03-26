@@ -1,0 +1,65 @@
+<!--pages/operation/customer/equipmentcustomerdesc/index.wxml-->
+<view class="page">
+  <view class="page__hd">
+    <view class="page__title">{{item.CustomerName}}</view>
+    <view class="page__desc">客户信息</view>
+  </view>
+  <view class="page__bd">
+    <view class="weui-form-preview">
+      <view class="weui-form-preview__bd">
+        <view class="weui-form-preview__item">
+          <view class="weui-form-preview__label">客户编号</view>
+          <view class="weui-form-preview__value">{{item.CustomerNo}}</view>
+        </view>
+        <view class="weui-form-preview__item">
+          <view class="weui-form-preview__label">客户名称</view>
+          <view class="weui-form-preview__value">{{item.CustomerName}}</view>
+        </view>
+        <view class="weui-form-preview__item">
+          <view class="weui-form-preview__label">客户全称</view>
+          <view class="weui-form-preview__value">{{item.CustomerDesc}}</view>
+        </view>
+        <view class="weui-form-preview__item">
+          <view class="weui-form-preview__label">联系人</view>
+          <view class="weui-form-preview__value">{{item.Contacts}}</view>
+        </view>
+        <view class="weui-form-preview__item">
+          <view class="weui-form-preview__label">联系电话</view>
+          <view class="weui-form-preview__value">{{item.Phone}}</view>
+        </view>
+        <view class="weui-form-preview__item">
+          <view class="weui-form-preview__label">联系地址</view>
+          <view class="weui-form-preview__value">{{item.Address}}</view>
+        </view>
+        <view class="weui-form-preview__item">
+          <view class="weui-form-preview__label">所属区域</view>
+          <view class="weui-form-preview__value">{{item.Zone}}</view>
+        </view>
+        <view class="weui-form-preview__item">
+          <view class="weui-form-preview__label">经纬度</view>
+          <view class="weui-form-preview__value">{{item.Longitude}},{{item.Longitude}}</view>
+        </view>
+        <view class="weui-form-preview__item">
+          <view class="weui-form-preview__label">状态</view>
+          <switch class="weui-form-preview__value" disabled="true" checked="{{item.Tag}}"/>         
+        </view>
+        <view class="weui-form-preview__item">
+          <view class="weui-form-preview__label">创建人</view>
+          <view class="weui-form-preview__value">{{item.Createuser}}</view>
+        </view>
+        <view class="weui-form-preview__item">
+          <view class="weui-form-preview__label">创建时间</view>
+          <view class="weui-form-preview__value">{{item.Createdate}}</view>
+        </view>
+        <view class="weui-form-preview__item">
+          <view class="weui-form-preview__label">修改人</view>
+          <view class="weui-form-preview__value">{{item.Changeuser}}</view>
+        </view>
+        <view class="weui-form-preview__item">
+          <view class="weui-form-preview__label">修改时间</view>
+          <view class="weui-form-preview__value">{{item.Changedate}}</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

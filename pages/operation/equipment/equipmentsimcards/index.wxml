@@ -1,0 +1,21 @@
+<!--pages/operation/equipment/equipmentsimcards/index.wxml-->
+<view class="page">
+  <view class="page__bd page__bd_spacing">
+    <scroll-view class="list" scroll-top="{{scrollTop}}" scroll-y="true" style="height:{{scrollHeight}}px;" bindscrolltolower="bindDownLoad" bindscroll="scroll" bindscrolltoupper="refresh">
+          <view class="item weui-cells weui-cells_after-title" wx:for="{{list}}">  
+            <navigator url="../equipmentsimcardsdesc/index?id={{item.Id}}" class="weui-cell weui-cell_access">
+              <view class="weui-cell__bd">{{item.SimNo}}</view>
+              <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+            </navigator>              
+          </view>
+    </scroll-view>   
+  </view>
+
+  <view class="body-view">
+      <loading hidden="{{hidden}}" bindchange="loadingChange">
+          加载中...
+      </loading>
+  </view>
+
+</view>
+

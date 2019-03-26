@@ -1,0 +1,21 @@
+/* pages/auth/user/index.wxss */
+
+.page__hd{
+  background-color: #1AAD19;
+}
+
+.page__desc{
+  color: #fff;
+  padding-bottom: 50rpx;
+}
+
+.avatar {
+  width: 160rpx;
+  height: 160rpx;
+  margin: 20rpx;
+  border-radius: 50%;  
+}
+
+.iconfont{
+  font-size: 45rpx;  
+}

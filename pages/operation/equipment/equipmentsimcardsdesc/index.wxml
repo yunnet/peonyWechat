@@ -1,0 +1,58 @@
+<!--pages/operation/equipment/equipmentsimcardsdesc/index.wxml-->
+<view class="page">
+  <view class="page__hd">
+    <view class="page__title">{{item.SimNo}}</view>
+    <view class="page__desc">SIM卡管理</view>
+  </view>
+  <view class="page__bd">
+    <view class="weui-form-preview">
+      <view class="weui-form-preview__bd">
+        <view class="weui-form-preview__item">
+          <view class="weui-form-preview__label">SIM卡号</view>
+          <view class="weui-form-preview__value">{{item.SimNo}}</view>
+        </view>
+        <view class="weui-form-preview__item">
+          <view class="weui-form-preview__label">ICCID</view>
+          <view class="weui-form-preview__value">{{item.ICCID}}</view>
+        </view>   
+        <view class="weui-form-preview__item">
+          <view class="weui-form-preview__label">总流量(M)</view>
+          <view class="weui-form-preview__value">{{item.Totaltraffic}}</view>
+        </view> 
+        <view class="weui-form-preview__item">
+          <view class="weui-form-preview__label">使用量(M)</view>
+          <view class="weui-form-preview__value">{{item.Usetraffic}}</view>
+        </view>  
+        <view class="weui-form-preview__item">
+          <view class="weui-form-preview__label">剩余量(M)</view>
+          <view class="weui-form-preview__value">{{item.Remaintraffic}}</view>
+        </view>
+        <view class="weui-form-preview__item">
+          <view class="weui-form-preview__label">同步时间</view>
+          <view class="weui-form-preview__value">{{item.Trafficsynctime}}</view>
+        </view>        
+       
+        <view class="weui-form-preview__item">
+          <view class="weui-form-preview__label">状态</view>
+          <switch class="weui-form-preview__value" disabled="true" checked="{{item.Tag}}"/> 
+        </view>
+        <view class="weui-form-preview__item">
+          <view class="weui-form-preview__label">创建人</view>
+          <view class="weui-form-preview__value">{{item.Createuser}}</view>
+        </view>
+        <view class="weui-form-preview__item">
+          <view class="weui-form-preview__label">创建时间</view>
+          <view class="weui-form-preview__value">{{item.Createdate}}</view>
+        </view>
+        <view class="weui-form-preview__item">
+          <view class="weui-form-preview__label">修改人</view>
+          <view class="weui-form-preview__value">{{item.Changeuser}}</view>
+        </view>
+        <view class="weui-form-preview__item">
+          <view class="weui-form-preview__label">修改时间</view>
+          <view class="weui-form-preview__value">{{item.Changedate}}</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

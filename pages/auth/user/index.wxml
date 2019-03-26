@@ -1,0 +1,47 @@
+<!--pages/auth/user/index.wxml-->
+<view class="page">
+  <view class="page__hd">
+    <view class="page__title">
+      <image class="avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+    </view>    
+    <view class="page__desc">昵称:{{userInfo.nickName}}</view>     
+  </view>
+
+  <view class="page__bd">    
+    <view class="weui-cells">  
+      <block wx:for="{{item}}" wx:key="">
+        <navigator url="{{item.path}}" class="weui-cell weui-cell_access">
+          <view class="weui-cell__hd">
+            <i class="iconfont {{item.icon}} weui-grid__icon {{item.iconcolor}}"></i>
+          </view>
+          <view class="weui-cell__bd">{{item.text}}</view>
+          <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+        </navigator>
+      </block>                
+    </view>
+
+    <view class="weui-cells">
+      <navigator url="../../logs/logs" class="weui-cell weui-cell_access">
+        <view class="weui-cell__hd">
+          <i class="iconfont icon-zixun weui-grid__icon purple"></i>
+        </view>
+        <view class="weui-cell__bd">日志信息</view>
+        <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+      </navigator>
+      <navigator url="../../logs/logs" class="weui-cell weui-cell_access">
+        <view class="weui-cell__hd">
+          <i class="iconfont icon-zixun weui-grid__icon yellow"></i>
+        </view>
+        <view class="weui-cell__bd">清除缓存</view>
+        <view class="weui-cell__ft weui-cell__ft_in-access">
+          <text>{{cacheSize}} KB</text>
+        </view>
+      </navigator>        
+    </view>
+    
+    <view class="weui-cells button-sp-area">
+      <button class="weui-btn" type="default" bindtap="onLogin">登陆账号</button>
+    </view>   
+  </view>
+  
+</view>

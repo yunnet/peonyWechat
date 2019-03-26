@@ -1,0 +1,8 @@
+/* pages/operation/datamanage/index/index.wxss */
+.iconfont{
+  font-size: 60rpx;
+}
+
+.weui-grid__label{
+  margin-top: 40rpx;
+}

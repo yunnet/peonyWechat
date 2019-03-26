@@ -1,0 +1,74 @@
+<!--pages/operation/equipment/equipmentmeterconfigdesc/index.wxml-->
+<view class="page">
+  <view class="page__hd">
+    <view class="page__title">{{item.DtuNo}}</view>
+    <view class="page__desc">通讯方式</view>
+  </view>
+  <view class="page__bd">
+    <view class="weui-form-preview">
+      <view class="weui-form-preview__bd">
+        <view class="weui-form-preview__item">
+          <view class="weui-form-preview__label">Dtu编号</view>
+          <view class="weui-form-preview__value">{{item.DtuNo}}</view>
+        </view>
+        <view class="weui-form-preview__item">
+          <view class="weui-form-preview__label">表地址</view>
+          <view class="weui-form-preview__value">{{item.MeterAddress}}</view>
+        </view>     
+        <view class="weui-form-preview__item">
+          <view class="weui-form-preview__label">电表类型编号</view>
+          <view class="weui-form-preview__value">{{item.MeterTypeNo}}</view>
+        </view>   
+        <view class="weui-form-preview__item">
+          <view class="weui-form-preview__label">网关编号</view>
+          <view class="weui-form-preview__value">{{item.GatewayNo}}</view>
+        </view>  
+        <view class="weui-form-preview__item">
+          <view class="weui-form-preview__label">网关区域编码</view>
+          <view class="weui-form-preview__value">{{item.GatewayQzone}}</view>
+        </view>  
+        <view class="weui-form-preview__item">
+          <view class="weui-form-preview__label">网关地址</view>
+          <view class="weui-form-preview__value">{{item.GatewayAddress}}</view>
+        </view>  
+        <view class="weui-form-preview__item">
+          <view class="weui-form-preview__label">网关主站标识</view>
+          <view class="weui-form-preview__value">{{item.GatewaySite}}</view>
+        </view> 
+        <view class="weui-form-preview__item">
+          <view class="weui-form-preview__label">回路名称</view>
+          <view class="weui-form-preview__value">{{item.LoopName}}</view>
+        </view> 
+        <view class="weui-form-preview__item">
+          <view class="weui-form-preview__label">电压变比(PT)</view>
+          <view class="weui-form-preview__value">{{item.Pt}}</view>
+        </view> 
+        <view class="weui-form-preview__item">
+          <view class="weui-form-preview__label">电流变比(CT)</view>
+          <view class="weui-form-preview__value">{{item.Ct}}</view>
+        </view> 
+
+        <view class="weui-form-preview__item">
+          <view class="weui-form-preview__label">状态</view>
+          <switch class="weui-form-preview__value" disabled="true" checked="{{item.Tag}}"/> 
+        </view>
+        <view class="weui-form-preview__item">
+          <view class="weui-form-preview__label">创建人</view>
+          <view class="weui-form-preview__value">{{item.Createuser}}</view>
+        </view>
+        <view class="weui-form-preview__item">
+          <view class="weui-form-preview__label">创建时间</view>
+          <view class="weui-form-preview__value">{{item.Createdate}}</view>
+        </view>
+        <view class="weui-form-preview__item">
+          <view class="weui-form-preview__label">修改人</view>
+          <view class="weui-form-preview__value">{{item.Changeuser}}</view>
+        </view>
+        <view class="weui-form-preview__item">
+          <view class="weui-form-preview__label">修改时间</view>
+          <view class="weui-form-preview__value">{{item.Changedate}}</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

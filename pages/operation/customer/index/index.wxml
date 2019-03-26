@@ -1,0 +1,20 @@
+<!--pages/operation/customer/index/index.wxml-->
+<view class="page">
+  <view class="page__hd">
+    <view class="page__title">客户管理</view>
+        <view class="page__desc">客户管理</view>
+  </view>
+  <view class="page_bd">
+    <view class="weui-grids">
+      <navigator url="../equipmentcustomer/index" class="weui-grid" hover-class="weui-grid_active">
+          <i class="iconfont icon-kehuguanli weui-grid__icon green"></i>           
+          <view class="weui-grid__label">客户信息</view>
+      </navigator>
+
+      <navigator url="../equipmentroom/index" class="weui-grid" hover-class="weui-grid_active">
+          <i class="iconfont icon-zhichizhongxin weui-grid__icon bule"></i>          
+          <view class="weui-grid__label">电房信息</view>
+      </navigator>
+    </view>
+  </view>
+</view>

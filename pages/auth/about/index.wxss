@@ -1,0 +1,5 @@
+/* pages/auth/about/index.wxss */
+
+.page__desc{
+  text-align: left;
+}

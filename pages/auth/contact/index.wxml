@@ -1,0 +1,23 @@
+<!--pages/auth/contact/index.wxml-->
+<view class="page">
+  <view class="page__hd">
+    <view class="page__title">
+      <text>广东可信电力股份有限公司</text>
+    </view>
+    <view class="page__desc">
+      地址:广州市天河区马场路16号富力盈盛广场B1705室
+    </view>
+  </view>
+  <view class="page__bd">
+    <map style="height: 400px; width: 100%;"
+    latitude="{{latitude}}"
+    longitude="{{longitude}}"
+    scale="{{scale}}"
+    markers="{{markers}}"
+    covers="{{covers}}"
+    >
+    
+    </map>
+  
+  </view>
+</view>

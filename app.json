@@ -1,0 +1,64 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/auth/user/index",
+    "pages/auth/usersetting/index",
+    "pages/auth/about/index",
+    "pages/auth/login/index",
+    "pages/operation/index/index",
+    "pages/operation/customer/index/index",
+    "pages/operation/datamanage/index/index",
+    "pages/operation/equipment/index/index",
+    "pages/operation/customer/equipmentcustomer/index",
+    "pages/operation/customer/equipmentroom/index",
+    "pages/operation/customer/equipmentcustomerdesc/index",
+    "pages/operation/customer/equipmentroomdesc/index",
+    "pages/operation/equipment/equipmentdtuconfig/index",
+    "pages/operation/equipment/equipmentgateway/index",
+    "pages/operation/equipment/equipmentmeterconfig/index",
+    "pages/operation/equipment/equipmentmetertype/index",
+    "pages/operation/equipment/equipmentsimcards/index",
+    "pages/operation/equipment/equipmentvendor/index",
+    "pages/operation/equipment/equipmentvendordesc/index",
+    "pages/operation/equipment/equipmentsimcardsdesc/index",
+    "pages/operation/equipment/equipmentmeterconfigdesc/index",
+    "pages/operation/equipment/equipmentdtuconfigdesc/index",
+    "pages/operation/equipment/equipmentgatewaydesc/index",
+    "pages/operation/equipment/equipmentmetertypedesc/index",
+    "pages/auth/feedback/index",
+    "pages/auth/contact/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1AAD19",
+    "navigationBarTitleText": "电可托",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#fff",
+    "selectedColor": "#1AAD19",
+    "borderStyle": "white",
+    "backgroundColor": "#fff",   
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/images/nav/tab_comson_off.png",
+        "selectedIconPath": "static/images/nav/tab_comson.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/operation/index/index",
+        "iconPath": "static/images/nav/overview_off.png",
+        "selectedIconPath": "static/images/nav/overview.png",
+        "text": "功能"
+      },
+      {
+        "pagePath": "pages/auth/user/index",
+        "iconPath": "static/images/nav/tab_user_off.png",
+        "selectedIconPath": "static/images/nav/tab_user.png",
+        "text": "我的"
+      }
+    ]
+  }
+}

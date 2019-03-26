@@ -1,0 +1,20 @@
+<!--pages/auth/about/index.wxml-->
+<view class="page">
+  <view class="page__hd">
+    <view class="page__title">
+      <i class="iconfont icon-dkt" style="font-size:160rpx; color:#FF4403;"></i>
+    </view>
+    <view class="page__bd_spacing">以可信服务管理体系为依托，以互联网运维＋智慧城市能源管理系统为核心，打造可信“电可托2+1运营模块“，为客户提供面向未来的安全、贴心、高效的智慧电力服务。</view>
+
+  </view>
+  <view class="page__bd">
+
+  </view>
+
+  <view class="page__ft">
+    <view class="weui-footer">
+      <view class="weui-footer__text">Copyright © 2018 by yunnet</view>
+      <view class="weui-footer__text">广东可信电力股份有限公司</view>
+    </view>
+  </view>
+</view>

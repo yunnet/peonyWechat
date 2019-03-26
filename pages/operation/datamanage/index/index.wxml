@@ -1,0 +1,25 @@
+<!--pages/operation/datamanage/index/index.wxml-->
+<view class="page">
+  <view class="page__hd">
+    <view class="page__title">数据管理</view>
+        <view class="page__desc">数据管理</view>
+  </view>
+  <view class="page_bd">
+    <view class="weui-grids">
+      <navigator url="" class="weui-grid" hover-class="weui-grid_active">
+          <i class="iconfont icon-tubiao weui-grid__icon teal"></i>
+          <view class="weui-grid__label">电表数据查询</view>
+      </navigator>
+
+      <navigator url="" class="weui-grid" hover-class="weui-grid_active">
+          <i class="iconfont icon-tubiaobingzhuangtu weui-grid__icon yellow"></i>
+          <view class="weui-grid__label">电表需量查询</view>
+      </navigator>
+
+      <navigator url="" class="weui-grid" hover-class="weui-grid_active">
+          <i class="iconfont icon-gaishu weui-grid__icon bule"></i>
+          <view class="weui-grid__label">采集条数查询</view>
+      </navigator>
+    </view>
+  </view>
+</view>

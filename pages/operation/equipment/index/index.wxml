@@ -1,0 +1,62 @@
+<!--pages/operation/equipment/index/index.wxml-->
+<view class="page">
+  <view class="page__hd">
+    <view class="page__title">设备管理</view>
+    <view class="page__desc">设备管理</view>
+  </view>
+
+  <view class="page_bd">
+    <view class="weui-grids">
+      <navigator url="../equipmentvendor/index" class="weui-grid" hover-class="weui-grid_active">
+          <i class="iconfont icon-lianxi weui-grid__icon yellow"></i>
+          <view class="weui-grid__label">设备供应商</view>
+      </navigator>
+
+      <navigator url="../equipmentgateway/index" class="weui-grid" hover-class="weui-grid_active">
+          <i class="iconfont icon-07 weui-grid__icon purple"></i>
+          <view class="weui-grid__label">通讯方式</view>
+      </navigator>
+
+      <navigator url="../equipmentmetertype/index" class="weui-grid" hover-class="weui-grid_active">
+          <i class="iconfont icon-yunwei weui-grid__icon light-bule"></i>
+          <view class="weui-grid__label">电表类型</view>
+      </navigator>
+
+      <navigator url="../equipmentsimcards/index" class="weui-grid" hover-class="weui-grid_active">
+          <i class="iconfont icon-hetong weui-grid__icon teal"></i>
+          <view class="weui-grid__label">SIM卡管理</view>
+      </navigator>
+
+      <navigator url="../equipmentdtuconfig/index" class="weui-grid" hover-class="weui-grid_active">
+          <i class="iconfont icon-tuoguan weui-grid__icon red"></i>
+          <view class="weui-grid__label">网络设备管理</view>
+      </navigator>
+
+      <navigator url="../equipmentmeterconfig/index" class="weui-grid" hover-class="weui-grid_active">
+          <i class="iconfont icon-monitor-copy-copy weui-grid__icon green"></i>
+          <view class="weui-grid__label">电表管理</view>
+      </navigator>
+
+      <navigator url="../equipmentgateway/index" class="weui-grid" hover-class="weui-grid_active">
+          <i class="iconfont icon-suoyougongdan weui-grid__icon bule"></i>
+          <view class="weui-grid__label">寄存器分段配置</view>
+      </navigator>
+
+      <navigator url="../equipmentgateway/index" class="weui-grid" hover-class="weui-grid_active">
+          <i class="iconfont icon-tab_opt weui-grid__icon yellow"></i>
+          <view class="weui-grid__label">寄存器地址管理</view>
+      </navigator>
+
+      <navigator url="../equipmentgateway/index" class="weui-grid" hover-class="weui-grid_active">
+          <i class="iconfont icon-zixun weui-grid__icon purple"></i>
+          <view class="weui-grid__label">字段映射表名配置</view>
+      </navigator>
+
+      <navigator url="../equipmentgateway/index" class="weui-grid" hover-class="weui-grid_active">
+          <i class="iconfont icon-gaishu weui-grid__icon teal"></i>
+          <view class="weui-grid__label">字段映射顺序配置</view>
+      </navigator>
+
+    </view>
+  </view>  
+</view>
