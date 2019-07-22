@@ -1,4 +1,4 @@
 # peonyWechat
 peonyWechat
 
-微信小程序《电可托后台管理》
+微信小程序《后台管理》
